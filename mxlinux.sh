@@ -37,7 +37,7 @@ sudo apt-get install kchmviewer pdftk okular texlive-full -y
 cd GitHub
 git clone https://github.com/jaflonu/vimrc.git
 cd vimrc
-bash install.sh
+bash vimrc.sh
 printf "\e[30m"
 printf "[ \e[32mok\e[30m ] Utilities"
 printf "\033\e[0m"
