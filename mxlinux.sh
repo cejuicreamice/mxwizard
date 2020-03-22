@@ -75,11 +75,11 @@ printf "\e[30m"
 printf "[ .. ] Julia installation"
 printf "\033\e[0m"
 cd Downloads
-wget https://julialang-s3.julialang.org/bin/linux/x64/1.4/julia-1.4.1-linux-x86_64.tar.gz
-tar xvfz julia-1.4.1-linux-x86_64.tar.gz
+wget https://julialang-s3.julialang.org/bin/linux/x64/1.4/julia-1.4.0-linux-x86_64.tar.gz
+tar xvfz julia-1.4.0-linux-x86_64.tar.gz
 cd ~
-mv /home/jafn/Downloads/julia-1.4.1 /home/jafn/
-sudo ln -s /home/jafn/julia-1.4.1/bin/julia /usr/local/bin/julia
+mv /home/jafn/Downloads/julia-1.4.0 /home/jafn/
+sudo ln -s /home/jafn/julia-1.4.0/bin/julia /usr/local/bin/julia
 printf "\e[30m"
 printf "[ \e[32mok\e[30m ] Julia installation"
 printf "\033\e[0m"
