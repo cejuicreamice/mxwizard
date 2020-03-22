@@ -8,7 +8,7 @@ printf "[ .. ] Basic settings"
 printf "\033\e[0m"
 cd ~
 pwd
-mkdir Clones GitHub React Documents/School Documents/Templates Documents/Topics
+mkdir Clones GitHub React Documents/School Documents/Templates Documents/Reading
 ls
 sudo apt update
 sudo apt-get update && sudo apt-get upgrade -y
