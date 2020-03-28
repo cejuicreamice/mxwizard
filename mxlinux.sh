@@ -33,7 +33,7 @@ printf "\033\e[0m"
 printf "\e[30m"
 printf "[ .. ] Utilities"
 printf "\033\e[0m"
-sudo apt-get install kchmviewer pdftk okular texlive-full -y
+sudo apt-get install kchmviewer pdftk okular texlive-full figlet -y
 cd GitHub
 git clone https://github.com/jaflonu/vimrc.git
 cd vimrc
