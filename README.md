@@ -1,4 +1,4 @@
-# Jorge's MX Post-Installation Setup
+# Jorge's MX-19 Post-Installation Setup
 
 [![Stargazers](https://img.shields.io/badge/be%20a-star-a155e7?style=popout-square)](https://github.com/jaflonu/mxwizard/stargazers "Stargazers")
 
