@@ -68,6 +68,11 @@ function settings() {
 						xclip -sel clip < ~/.ssh/id_rsa.pub
 						notify-send "GitHub SSH Keygen copied to clipboard!"
 						;;
+				Zsh)
+						sudo apt-get install zsh -y
+						zsh --version
+						cat /etc/shells
+						chsh -s $(which zsh)
 				*) ;;
 		esac
 }
@@ -80,8 +85,8 @@ echo "I am an MX-19 wizard for some post-installation setup."
 echo "I will do all the technical work for you, just take a look at the following menu."
 
 # Software menu list display
-options=("Utils" "Ranger" "Calcurse" "TeX" "Julia"
-		"Anaconda" "GatsbyJs" "Nvidia" "i3WM")
+options=("Utils" "Ranger" "Calcurse" "TeX" "Julia" "Anaconda"
+		"GatsbyJs" "Nvidia" "i3WM" "SSH-Key" "Zsh")
 menu() {
     echo "Checklist:"
     for i in ${!options[@]}; do 
