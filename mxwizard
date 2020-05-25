@@ -17,8 +17,14 @@ function settings() {
 						sudo apt-get install xclip pdftk okular kchmviewer -y
 						sudo apt install clipit -y
 						;;
-				Ranger)
-						sudo apt-get install ranger -y
+				LF)
+						[[ "$PWD" != "$HOME/Downloads" ]] && cd ~/Downloads
+						wget https://github.com/gokcehan/lf/releases/download/r6/lf-linux-amd64.tar.gz \
+								-O lf-linux-amd64.tar.gz
+						tar xvf lf-linux-amd64.tar.gz
+						chmod +x lf
+						sudo mv lf /usr/local/bin
+						which lf
 						sudo apt-get install caca-utils highlight atool w3m poppler-utils mediainfo -y
 						;;
 				Calcurse)
@@ -73,6 +79,7 @@ function settings() {
 						zsh --version
 						cat /etc/shells
 						chsh -s $(which zsh)
+						;;
 				*) ;;
 		esac
 }
@@ -85,7 +92,7 @@ echo "I am an MX-19 wizard for some post-installation setup."
 echo "I will do all the technical work for you, just take a look at the following menu."
 
 # Software menu list display
-options=("Utils" "Ranger" "Calcurse" "TeX" "Julia" "Anaconda"
+options=("Utils" "LF" "Calcurse" "TeX" "Julia" "Anaconda"
 		"GatsbyJs" "Nvidia" "i3WM" "SSH-Key" "Zsh")
 menu() {
     echo "Checklist:"
