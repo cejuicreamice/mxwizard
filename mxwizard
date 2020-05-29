@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Pass flag
+# Passing flag
 function echo_done {
 		printf "\e[32mYou are ready to go!\n"
 		printf "\033\e[0m"
