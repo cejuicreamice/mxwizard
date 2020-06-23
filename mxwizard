@@ -1,4 +1,11 @@
 #!/bin/bash
+#
+# Script for custom installations in MX-19
+#
+# Author: Jorge A. Flores <jaflonu@protonmail.ch>
+# Date: June 20, 2020
+#
+#
 
 # Passing flag
 function echo_done {
@@ -102,7 +109,7 @@ menu() {
     if [[ "$msg" ]]; then echo "$msg"; fi
 }
 
-# Interactive dialog printing feedback to user
+# Interactive dialog with feedback printing to the user
 prompt="Tell me to check or uncheck an option. Press <Return> when done: "
 while menu && read -rp "$prompt" num && [[ "$num" ]]; do
     [[ "$num" != *[![:digit:]]* ]] &&
