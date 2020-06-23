@@ -1,6 +1,6 @@
 # Jorge's MX-19 Post-Installation Setup
 
-[![Code Size](https://img.shields.io/github/languages/code-size/jaflonu/mxwizard?style=popout-square)](https://github.com/jaflonu/mxwizard/archive/master.zip "Code Size")
+[![Code Size](https://img.shields.io/github/languages/code-size/jaflonu/mxwizard?style=popout-square)](https://github.com/jaflonu/mxwizard/search?l=shell "Code Size")
 
 This is a tiny initial post-installation setup for the MX Linux distribution. The script consists of installing right away all software packages of preference in a nut`shell`.
 
